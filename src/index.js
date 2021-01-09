@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import Metronome from './Metronome';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Metronome />
   </React.StrictMode>,
   document.getElementById('root')
 );
